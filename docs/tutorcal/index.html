@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Using Google Calendar API to Auto-Create Tutoring Events | liu&#x27;s website</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://liu2g.github.io/style.css">
+    <link rel="stylesheet" href="https://liu2g.github.io/color/green-auto.css">
+
+        <link rel="stylesheet" href="https://liu2g.github.io/color/background_blue.css">
+    
+    <link rel="stylesheet" href="https://liu2g.github.io/font-hack-subset.css">
+
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    
+
+<link rel="stylesheet" href="https://liu2g.github.io/katex.css">
+<script defer src="https://liu2g.github.io/katex.js"></script>
+<script defer src="https://liu2g.github.io/auto-render.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false},
+            ]
+        });
+    });
+</script>
+
+
+<script async defer src="https://nullitics.com/script.js"></script>
+
+</head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://liu2g.github.io" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            liu
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        <nav class="menu">
+            <ul class="menu__inner">
+                <li><a href="https://liu2g.github.io/about">about me</a></li>
+            
+                <li><a href="https://github.com/liu2g/resume/releases/latest" target="_blank" rel="noopener noreferrer">resume</a></li>
+            
+                <li><a href="https://liu2g.github.io/projects">projects</a></li>
+            
+                <li><a href="https://liu2g.github.io/tags">tags</a></li>
+            
+                <li><a href="https://github.com/liu2g" target="_blank" rel="noopener noreferrer">    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M10.9,2.1c-4.6,0.5-8.3,4.2-8.8,8.7c-0.5,4.7,2.2,8.9,6.3,10.5C8.7,21.4,9,21.2,9,20.8v-1.6c0,0-0.4,0.1-0.9,0.1 c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C5.1,16.3,5,16.3,5,16.2C5,16,5.3,16,5.4,16c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1 c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C7.1,8.8,7,8.3,7,7.6c0-0.4,0-0.9,0.2-1.3 C7.2,6.1,7.4,6,7.5,6c0,0,0.1,0,0.1,0C8.1,6.1,9.1,6.4,10,7.3C10.6,7.1,11.3,7,12,7s1.4,0.1,2,0.3c0.9-0.9,2-1.2,2.5-1.3 c0,0,0.1,0,0.1,0c0.2,0,0.3,0.1,0.4,0.3C17,6.7,17,7.2,17,7.6c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4 c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C22,6.1,16.9,1.4,10.9,2.1z" ></path>
+    </svg>
+    </a></li>
+            
+                <li><a href="https://gitlab.com/liu2g" target="_blank" rel="noopener noreferrer">    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+        viewBox="0 0 50 50" fill="none" stroke="currentColor">
+            <path d="M 38.011719 4 C 37.574219 3.996094 37.183594 4.273438 37.046875 4.691406 L 32.074219 20 L 17.925781 20 L 12.953125 4.691406 C 12.820313 4.289063 12.449219 4.011719 12.023438 4 C 11.597656 3.992188 11.214844 4.25 11.0625 4.648438 L 5.070313 20.640625 C 5.066406 20.640625 5.066406 20.644531 5.0625 20.648438 L 2.0625 28.648438 C 1.90625 29.070313 2.046875 29.542969 2.414063 29.808594 L 24.40625 45.800781 L 24.410156 45.808594 C 24.414063 45.808594 24.414063 45.808594 24.414063 45.8125 C 24.425781 45.820313 24.441406 45.828125 24.453125 45.835938 C 24.46875 45.84375 24.480469 45.855469 24.496094 45.863281 C 24.5 45.863281 24.5 45.867188 24.503906 45.867188 C 24.503906 45.867188 24.507813 45.871094 24.511719 45.871094 C 24.515625 45.875 24.519531 45.878906 24.527344 45.878906 C 24.53125 45.882813 24.539063 45.886719 24.542969 45.890625 C 24.5625 45.898438 24.585938 45.910156 24.609375 45.917969 C 24.609375 45.917969 24.609375 45.917969 24.609375 45.921875 C 24.632813 45.929688 24.65625 45.9375 24.675781 45.945313 C 24.679688 45.945313 24.679688 45.945313 24.683594 45.949219 C 24.699219 45.953125 24.714844 45.957031 24.734375 45.964844 C 24.742188 45.964844 24.75 45.96875 24.761719 45.96875 C 24.761719 45.972656 24.761719 45.972656 24.761719 45.96875 C 24.78125 45.976563 24.800781 45.980469 24.820313 45.984375 C 24.847656 45.988281 24.871094 45.992188 24.898438 45.996094 C 24.9375 45.996094 24.980469 46 25.019531 46 C 25.058594 45.996094 25.09375 45.996094 25.128906 45.988281 C 25.144531 45.988281 25.15625 45.988281 25.171875 45.984375 C 25.171875 45.984375 25.175781 45.984375 25.179688 45.984375 C 25.1875 45.980469 25.191406 45.980469 25.199219 45.980469 C 25.203125 45.980469 25.207031 45.976563 25.214844 45.976563 C 25.222656 45.972656 25.234375 45.972656 25.242188 45.96875 C 25.257813 45.964844 25.269531 45.960938 25.28125 45.957031 C 25.289063 45.957031 25.292969 45.957031 25.296875 45.953125 C 25.300781 45.953125 25.304688 45.953125 25.308594 45.953125 C 25.324219 45.945313 25.34375 45.9375 25.359375 45.933594 C 25.378906 45.925781 25.394531 45.917969 25.410156 45.910156 C 25.414063 45.910156 25.414063 45.910156 25.417969 45.90625 C 25.421875 45.90625 25.425781 45.90625 25.429688 45.902344 C 25.4375 45.898438 25.445313 45.894531 25.453125 45.890625 C 25.476563 45.878906 25.496094 45.867188 25.515625 45.855469 C 25.523438 45.851563 25.527344 45.847656 25.53125 45.84375 C 25.535156 45.84375 25.539063 45.839844 25.542969 45.839844 C 25.558594 45.828125 25.574219 45.820313 25.589844 45.808594 L 25.597656 45.796875 L 47.589844 29.808594 C 47.953125 29.542969 48.09375 29.070313 47.9375 28.648438 L 44.945313 20.675781 C 44.941406 20.667969 44.9375 20.65625 44.9375 20.648438 L 38.9375 4.648438 C 38.789063 4.261719 38.425781 4.003906 38.011719 4 Z M 11.933594 8.027344 L 15.824219 20 L 7.445313 20 Z M 38.066406 8.027344 L 42.558594 20 L 34.175781 20 Z M 8.066406 22 L 16.472656 22 L 22.328125 40.015625 Z M 18.578125 22 L 31.421875 22 L 25 41.765625 Z M 33.527344 22 L 41.933594 22 L 27.671875 40.015625 Z M 6.3125 23.007813 L 19.6875 39.902344 L 4.203125 28.640625 Z M 43.6875 23.007813 L 45.796875 28.640625 L 30.3125 39.902344 Z"></path>
+    </svg>
+    </a></li>
+            
+                <li><a href="https://www.linkedin.com/in/liu2g" target="_blank" rel="noopener noreferrer">    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+        viewBox="0 0 30 30" fill="none" stroke="currentColor">
+            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+    </svg>
+    </a></li>
+            
+                <li><a href="mailto:leo85811nardo@protonmail.com" target="_blank" rel="noopener noreferrer">    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+    </svg>
+    </a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://liu2g.github.io/tutorcal/">Using Google Calendar API to Auto-Create Tutoring Events</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            2019-10-21
+        </span>
+
+    </div>
+
+    
+        <span class="post-tags-inline">
+                :: tags:&nbsp;
+                <a class="post-tag" href="https://liu2g.github.io/tags/python/">#Python</a>&nbsp;
+                <a class="post-tag" href="https://liu2g.github.io/tags/software/">#software</a></span>
+    
+
+        
+        <div class="post-content">
+            <p>The source of the project can be found <a href="https://github.com/liu2g/TutorCal">here</a>.</p>
+<p>This is a project I started personally since March 2019 when I worked as a peer
+tutor at UC Tutoring Center (previously called Learning Commons).</p>
+<h1 id="motivation">Motivation</h1>
+<p>The way Peer Tutoring works at UC is that students schedule appointments with
+me, and I get email notification when they do so. TutorTrac is a system where
+students schedule appointments, and I see my appointments beforehand. An example
+of how the system looks is shown in Figure 1. However, though being a stable
+system maintained since 2011, TutorTrac has some inconvenient features</p>
+<ul>
+<li>It is hard for me to navigate when I use my phone to look at my schedule</li>
+<li>For every event, it shows Last name first, but we usually refer to students' first name</li>
+<li>It only shows the class code of the assisting course instead of full name,
+making me hard to identify the class</li>
+</ul>
+<p>This encourages me to develop my own method of seeing the schedule.</p>
+<figure>
+  <img src="tutortrac.webp"/>
+  <figcaption> <small> Figure 1 - TutorTrac System </small> </figcaption>
+</figure>
+<h1 id="design">Design</h1>
+<p>The system reads the email notification of incoming tutoring appointments,
+scrapes the necessary information, and pushes it to my Google calendar in a
+better format. Thus I can see my schedule directly from the calendar widget of
+my phone (Android). Ideally it should scan the email notifications every 10-30
+minutes and automatically generate events without being monitored. Additional
+good-to-have feature is that it will also store the appointment info at local,
+and try to match everyday's schedule reminder sent from TutorTrac. Later it was
+found this part was hard to implement given the time, so it was deserted.</p>
+<h2 id="design-diagram">Design diagram</h2>
+<figure>
+  <img src="design.webp"/>
+  <figcaption> <small> Figure 2 - Design Diagram </small> </figcaption>
+</figure>
+<h2 id="reading-uc-email-notifications">Reading UC Email Notifications</h2>
+<p>The notification received from TutorTrac follows a specific format (Figure 3).
+Therefore it is viable to hard-code the format into the program, making the
+scraping info method easier. Additionally, considering UC email is my most
+important mail address, as well as the fact that getting around UC server is
+hard and possibly not allowed, I created a rule at my UC mailbox to
+automatically forward any emails from TutorTrac to a gmail account I created for
+this project.</p>
+<figure>
+  <img src="email.webp"/>
+  <figcaption> <small> Figure 3 - TutorTrac Email Notif </small> </figcaption>
+</figure>
+<h2 id="main-program">Main Program</h2>
+<p>The program is made up of three python scripts.</p>
+<p><code>email_read.py</code>: contains functions that reads email from Gmail account and
+scrape appointment info. Email interface is through imaplib module.
+Additionally, there is a csv look-up table, where the program can find the
+matching full name of the class from the course code.</p>
+<p><code>google_cal.py</code>: contains functions that pushes the appointment info to my
+Google calendar. This script is inspired by an article on Google site <a href="https://developers.google.com/calendar/quickstart/python">Google
+Calendar API Python
+Quickstart</a></p>
+<p><code>controller.py</code>: uses the two modules and sets up the logging.</p>
+<h2 id="hardware-implementation">Hardware Implementation</h2>
+<p>The project does not requires too much in hardware except for the ability to run
+Python scripts and Internet accessibility. Therefore a Raspberry Pi 3 Model B
+(Figure 4) was used to implement the design. VNC Viewer is used to remote
+control the machine wirelessly from other computers. Raspbian with Kernel verion
+4.14 was installed on the board, where it was found that there is a Scheduling
+tool (Figure 5) that lets a command run every period of time. This can also be
+done by hard-coding in CRON, which is the core of scheduling tool (i.e.
+scheduling is a GUI of CRON). Detail info about using CRON or scheduling tool
+see /CRONtest/note.txt on GitHub repo.</p>
+<figure>
+  <img src="rpi.webp"/>
+  <figcaption> <small> Figure 4 - Raspberry Pi 3 in Operation </small> </figcaption>
+</figure>
+<figure>
+  <img src="rpi.webp"/>
+  <figcaption> <small> Figure 5 - Cron Task Setup </small> </figcaption>
+</figure>
+<h2 id="long-term-management-and-maintenance">Long-Term Management and Maintenance</h2>
+<p>To make sure the program runs completely without errors stopping the process, I
+changed the script so that the error message will show in log file while the
+erroneous part is passed. Using <code>logging</code> module, the code also logs important
+stages in the operations (Figure 6). I also coded parts where the Internet is
+used to push/pull data to allow 99 retries, reducing the odds of getting bad
+connections.</p>
+<figure>
+  <img src="log.webp"/>
+  <figcaption> <small> Figure 6 - Cron Task Setup </small> </figcaption>
+</figure>
+<h1 id="results">Results</h1>
+<p>The project was successful. It helped me manage my tutoring schedule over the
+last month of the semester. I was able to see who scheduled what class at my
+phone easily. Figure 8 is a side-by-side comparison between TutorTrac and how it
+turns out in my Google calendar.</p>
+<figure>
+  <img src="gcal.webp"/>
+  <figcaption> <small> Figure 7 - TutorTrac schedule (left, yellow blocks) vs Google Calendar (right, blue blocks) </small> </figcaption>
+</figure>
+<h1 id="what-i-learned-from-the-project">What I Learned From the Project</h1>
+<ul>
+<li>Access emails in Python with imaplib</li>
+<li>Create Google calendar events with Google API</li>
+<li>Use logging to maintain a constantly running program</li>
+<li>Create a hardware environment (Raspberry Pi) and method to support a mini-server</li>
+</ul>
+<h1 id="future-recommendations">Future Recommendations</h1>
+<p>Pushing events can be easy, but retrieving them from my calendar may be hard.
+For future implementation, it will be good to have an additional module to
+retrieve the events, check with the local record, thus making sure the schedule
+is correct.</p>
+
+        </div>
+
+        
+        <div class="pagination">
+            <div class="pagination__title">
+                <span class="pagination__title-h">See more projects</span>
+                <hr />
+            </div>
+            <div class="pagination__buttons">
+                
+                    <span class="button next">
+                        <a href="https://liu2g.github.io/nullclineplot/">
+                            <span class="button__text">Mathematical Steady State Analysis by Plotting in Python</span>&nbsp;
+                            <span class="button__icon">→</span>
+                        </a>
+                    </span>
+                </div>
+        </div>
+    
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright copyright--user">Licensed under&nbsp;<a rel="license nofollow noopener noreferrer"
+    href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+    CC-BY-4.0</a></div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
