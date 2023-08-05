@@ -9,7 +9,6 @@ generator.
 In addition, the website uses the following plugins/extensions
 - [Terminimal](https://github.com/pawroman/zola-theme-terminimal) theme
 - [KaTex](https://katex.org/) LaTex rendering on the web
-- [Nulltics](https://nullitics.com/) privacy focused analytics tool
 
 ## Directory Structure
 
