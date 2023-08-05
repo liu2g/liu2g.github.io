@@ -1,0 +1,4 @@
+[submodule "themes/terminimal"]
+	path = themes/terminimal
+	url = git@github.com:pawroman/zola-theme-terminimal.git
+	branch = master
