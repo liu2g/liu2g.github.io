@@ -24,7 +24,6 @@ the actual github.io page.
 
 ## License
 
-The license for [Terminmal](https://github.com/pawroman/zola-theme-terminimal)
-theme is included in [`themes/terminimal`](themes/terminimal/) submodule.
+The licenses for themes are included in submodules under [themes](themes).
 
 The rest of the content are licensed under [CC-BY-4.0](LICENSE).
