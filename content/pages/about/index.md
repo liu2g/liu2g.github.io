@@ -3,6 +3,10 @@ title = "Zuguang Liu (or simply Liu)"
 path = "about"
 +++
 
+<p style= "float:right; padding: 0px 0px 0px 50px;" >
+<img src="headshot2023.webp" width=150>
+</p>
+
 ​I am a multi-cultural, multi-disciplinary engineer interested in
 
 - Electronics,
