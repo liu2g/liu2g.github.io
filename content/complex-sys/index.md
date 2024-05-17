@@ -3,9 +3,8 @@ title: Complex Intelligent System Design and Implementation
 date: 2021-05-10
 taxonomies:
   tags:
-    - software
     - python
-    - math
+    - mathematical-analysis
     - machine-learning
     - robotics
     - class-project

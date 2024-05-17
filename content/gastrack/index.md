@@ -4,7 +4,6 @@ date: 2020-04-29
 taxonomies:
   tags:
     - python
-    - software
     - machine-learning
 ---
 

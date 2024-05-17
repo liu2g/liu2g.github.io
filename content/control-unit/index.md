@@ -4,7 +4,7 @@ date: 2021-04-26
 taxonomies:
   tags:
     - class-project
-    - hardware-design
+    - system-design
 ---
 
 This article talks about the technical aspects and takeaway from two

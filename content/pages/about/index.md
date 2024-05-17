@@ -13,6 +13,13 @@ path = "about"
 - Robotics and intelligent systems, and
 - A little touch on software engineering
 
+<iframe
+  src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/liu2g/resume/releases/latest/download/eece_resume.pdf"
+  width="100%" height="400"
+  frameBorder="0" scrolling="auto"
+>
+</iframe>
+
 ---
 
 # Education
@@ -33,7 +40,7 @@ path = "about"
 - Software engineering: Git, VSCode, Vim, GCC, Qt, GTK
 - Electronics Design & Simulation: KiCAD, MATLAB & Simulink, PySpice, Xilinx
   Vivado
-- Robotics: ROS, Gazebo, PyBullet
+- Robotics: ROS, Gazebo, CoppeliaSim
 - Documentation: Markdown, LaTeX
 
 <table>
@@ -50,7 +57,7 @@ path = "about"
     <td align="center"><img src="matlab.webp" alt="matlab" width = 100px height = 100px></td>
     <td align="center"><img src="pyspice.webp" alt="pyspice" width = 100px height = 100px></td>
     <td align="center"><img src="xilinx.webp" alt="xilinx" width = 100px height = 100px></td>
-    <td align="center"><img src="ros.webp"  alt="markdown" width = 100px height = 100px ></td>
+    <td align="center"><img src="coppeliasim.webp"  alt="markdown" width = 100px height = 100px ></td>
     <td align="center"><img src="latex.webp" alt="latex" width = 100px height = 100px></td>
   </tr>
 </table>

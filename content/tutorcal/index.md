@@ -3,8 +3,8 @@ title: Using Google Calendar API to Auto-Create Tutoring Events
 date: 2019-10-21
 taxonomies:
   tags:
-    - software
     - Python
+    - Linux
 ---
 
 

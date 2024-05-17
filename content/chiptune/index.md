@@ -3,7 +3,6 @@ title: A Chiptune Music System with OPL2 and Reality Adlib Tracker
 date: 2019-12-02
 taxonomies:
   tags:
-    - electronics
     - embedded
     - C/C++
     - class-project

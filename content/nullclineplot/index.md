@@ -4,7 +4,7 @@ date: 2019-10-21
 taxonomies:
   tags:
     - class-project
-    - math
+    - mathematical-analysis
 ---
 
 The source of the project can be found [here](https://github.com/liu2g/nullclineplot).

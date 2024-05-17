@@ -11,6 +11,10 @@
         <lastmod>2019-12-02</lastmod>
     </url>
     <url>
+        <loc>https://liu2g.github.io/cobots-sim/</loc>
+        <lastmod>2024-05-16</lastmod>
+    </url>
+    <url>
         <loc>https://liu2g.github.io/complex-sys/</loc>
         <lastmod>2021-05-10</lastmod>
     </url>
@@ -43,6 +47,13 @@
         <loc>https://liu2g.github.io/page/4/</loc>
     </url>
     <url>
+        <loc>https://liu2g.github.io/page/5/</loc>
+    </url>
+    <url>
+        <loc>https://liu2g.github.io/pasta/</loc>
+        <lastmod>2024-05-16</lastmod>
+    </url>
+    <url>
         <loc>https://liu2g.github.io/projects/</loc>
     </url>
     <url>
@@ -55,28 +66,35 @@
         <loc>https://liu2g.github.io/tags/class-project/</loc>
     </url>
     <url>
-        <loc>https://liu2g.github.io/tags/electronics/</loc>
+        <loc>https://liu2g.github.io/tags/computer-vision/</loc>
     </url>
     <url>
         <loc>https://liu2g.github.io/tags/embedded/</loc>
     </url>
     <url>
-        <loc>https://liu2g.github.io/tags/hardware-design/</loc>
+        <loc>https://liu2g.github.io/tags/linux/</loc>
     </url>
     <url>
         <loc>https://liu2g.github.io/tags/machine-learning/</loc>
     </url>
     <url>
-        <loc>https://liu2g.github.io/tags/math/</loc>
+        <loc>https://liu2g.github.io/tags/mathematical-analysis/</loc>
     </url>
     <url>
         <loc>https://liu2g.github.io/tags/python/</loc>
     </url>
     <url>
+        <loc>https://liu2g.github.io/tags/research-project/</loc>
+    </url>
+    <url>
         <loc>https://liu2g.github.io/tags/robotics/</loc>
     </url>
     <url>
-        <loc>https://liu2g.github.io/tags/software/</loc>
+        <loc>https://liu2g.github.io/tags/system-design/</loc>
+    </url>
+    <url>
+        <loc>https://liu2g.github.io/teleop-video/</loc>
+        <lastmod>2024-05-16</lastmod>
     </url>
     <url>
         <loc>https://liu2g.github.io/tutorcal/</loc>
