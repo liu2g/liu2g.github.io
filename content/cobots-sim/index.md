@@ -20,7 +20,7 @@ Our work was documented in a conference paper, which is accepted and in proceedi
   src="poster.pdf"
   type="application/pdf"
   width="100%"
-  height="600"
+  height="650"
   frameborder="0"
   allowfullscreen
 >

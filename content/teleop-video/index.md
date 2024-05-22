@@ -20,9 +20,13 @@ Following our research, we incorporate our findings into a comprehensive system 
   src="poster.pdf"
   type="application/pdf"
   width="100%"
-  height="600"
+  height="650"
   frameborder="0"
   allowfullscreen
 >
 </iframe>
 <center><a href="poster.pdf">Download Poster</a></center>
+
+Our work and poster was presented at the [Bradley Student Scholarship Expo](https://www.bradley.edu/sites/expo/) and won ECE Graduate Studies Award.
+
+![](award.webp)
