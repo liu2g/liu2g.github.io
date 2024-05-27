@@ -5,7 +5,7 @@ taxonomies:
   tags:
     - research-project
     - computer-vision
-    - system-design
+    - electronic-systems
     - mathematical-analysis
 ---
 

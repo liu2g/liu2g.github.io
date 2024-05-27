@@ -10,8 +10,8 @@ path = "about"
 ​I am a multi-cultural, multi-disciplinary engineer interested in
 
 - Electronics,
-- Robotics and intelligent systems, and
-- A little touch on software engineering
+- Robotics and intelligent AI systems, and
+- Low-level (embedded to OS) software engineering
 
 <iframe
   src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/liu2g/resume/releases/latest/download/eece_resume.pdf"
