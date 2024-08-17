@@ -28,7 +28,7 @@ path = "about"
 
 - [Bachelor of Science](CeDiploma_BS_EE.pdf) (August 2016 - May 2021),
   [University of Cincinnati](https://www.uc.edu/), USA
-- Master of Science (August 2023 - now), [Bradley
+- Master of Science (August 2023 - December 2024), [Bradley
   University](https://www.bradley.edu/), USA
 
 ---
@@ -65,6 +65,20 @@ path = "about"
 ---
 
 # Professional Experience
+
+<p style= "float:right; padding: 0px 0px 0px 50px;" >
+<img src="ecm.webp" width=200>
+</p>
+
+#### Core Machine Platform Software Developer<br/>(Summer 2024)
+- Developed and maintained automated software-in-the-loop (SIL) simulation and testing tool for Caterpillar embedded software by extending Google Test framework with C/C++
+  - Benchmarked and optimized software performance for better test efficiency
+  - Added quality of life features to the software
+  - Enriched and clarified tool documentation
+- Developed and maintained user interactive SIL tool as GUI application with Python and wx framework
+  - Collaborated with embedded developers and testers to troubleshoot bugs
+  - Added feature as per user requests
+  - Refactored code base to conform with coding standards
 
 <p style= "float:right; padding: 0px 0px 0px 50px;" >
 <img src="cat-wl.webp" width=200>

@@ -144,10 +144,10 @@ Each cell is happy if it has $k$ neighbors of the same class (in this case, $k =
 If the cell is unhappy, it moves based on a policy, which we define below.</p>
 <p>The first policy is the random policy, where unhappy agents search for a random cell until they find one which makes them happy.
 If no such cell is found after 100 searches, the agent moves to the cell which makes it the happiest.</p>
-<p>In the second policy that is reliant on a &quot;social network&quot;, each agent is assigned a certain number of friends.
+<p>In the second policy that is reliant on a "social network", each agent is assigned a certain number of friends.
 When a agent is unhappy, it asks its friends if there are any cells nearby which would make them happy.
 If such cells are found, the agent chooses a random cell which makes it happy. Otherwise, the agent does not move.</p>
-<p>We benchmarked the two policies by a &quot;happiness index&quot; as the fraction of happy agents over all agents in the map, such that cases are optimal when happiness is 1.
+<p>We benchmarked the two policies by a "happiness index" as the fraction of happy agents over all agents in the map, such that cases are optimal when happiness is 1.
 In Fig. 1, the performance of the two said policies are compared in one plot over 30 simulations, each having 20 epochs.
 We have thus concluded that for our configuration, the model with random policy converges faster and more consistently than the social network model.
 We also found that the smaller social network would result in more sub-optimal happiness instances.</p>
@@ -170,7 +170,7 @@ For a poorly-designed weight function, it may even result in lower efficiency.</
   <img src="weighted_random_happiness.png"/>
   <figcaption> <small> Fig. 2: Weighted random happiness vs true random policy </small> </figcaption>
 </figure>
-<p>Other group members also experimented with exclusive social policy and forgetful friend (or &quot;disposable friend&quot;) policy.
+<p>Other group members also experimented with exclusive social policy and forgetful friend (or "disposable friend") policy.
 Details of their design and result are explained in our <a href="https://github.com/stegnerw/segregation_policy_model/blob/main/docs/main.pdf">report document</a>.</p>
 <p>Overall this was a interesting mini-project where we observed and explored the segregating behavior under different rule sets and parameters.
 We would really love to come up with more novel ideas for the policies, but unfortunately under the give time constraints we could not use our full imagination.
@@ -183,29 +183,29 @@ The motivation and methodology are explained in detail in our <a href="https://g
         </div>
 
         
-        <div class="pagination">
-            <div class="pagination__title">
-                <span class="pagination__title-h">See more projects</span>
-                <hr />
-            </div>
-            <div class="pagination__buttons">
-                    <span class="button previous">
-                        <a href="https://liu2g.github.io/mgms/">
-                            <span class="button__icon">←</span>&nbsp;
-                            <span class="button__text">Modular Garden Monitoring System (Senior Design Project)</span>
-                        </a>
-                    </span>
-                
-                
-                    <span class="button next">
-                        <a href="https://liu2g.github.io/teleop-video/">
-                            <span class="button__text">Adaptive Real-Time Video For Vehicle Remote Control</span>&nbsp;
-                            <span class="button__icon">→</span>
-                        </a>
-                    </span>
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">See more projects</span>
+                    <hr />
                 </div>
-        </div>
-    
+                <div class="pagination__buttons">
+                        <span class="button previous">
+                            <a href="https://liu2g.github.io/mgms/">
+                                <span class="button__icon">←</span>&nbsp;
+                                <span class="button__text">Modular Garden Monitoring System (Senior Design Project)</span>
+                            </a>
+                        </span>
+                    
+                    
+                        <span class="button next">
+                            <a href="https://liu2g.github.io/teleop-video/">
+                                <span class="button__text">Adaptive Real-Time Video For Vehicle Remote Control</span>&nbsp;
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    </div>
+            </div>
+        
     </div>
 
     </div>

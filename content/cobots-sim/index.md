@@ -14,7 +14,7 @@ The work presented is the preliminary stage of my Master's thesis on autonomous 
 In particular, we investigated a cooperative object transportation method using a group of autonomous networked cobots (collaborative robots).
 Using two KUKA YouBot and CoppeliaSim simulation software, we validated our work in a simulated environment.
 
-Our work was documented in a conference paper, which is accepted and in proceeding for [ROSE 2024 Symposium](https://rose2024.ieee-ims.org/).
+Our work was presented in [IEEE International Workshop on Robot Sensing (ROSE) Symposium](https://rose2024.ieee-ims.org/) and documented in the corresponding [conference paper](https://ieeexplore.ieee.org/document/10590934).
 
 <iframe
   src="poster.pdf"
