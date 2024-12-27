@@ -60,12 +60,12 @@ You can watch the thesis defense recording [here](https://youtu.be/Jgu7624eklM) 
 
 <figure>
   <img src="defense-1.webp"/>
-  <figcaption> <small> Fig. 3(a): Thesis defense </small> </figcaption>
+  <figcaption> <small> Fig. 4(a): Thesis defense </small> </figcaption>
 </figure>
 
 <figure>
   <img src="defense-1.webp"/>
-  <figcaption> <small> Fig. 3(b): Thesis defense </small> </figcaption>
+  <figcaption> <small> Fig. 4(b): Thesis defense </small> </figcaption>
 </figure>
 
 Over the entire research, I studied, understood and applied fundamental robotics theories such as kinematic analysis, manipulator control, navigation methods, etc.
