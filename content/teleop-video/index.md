@@ -3,7 +3,7 @@ title: Adaptive Real-Time Video For Vehicle Remote Control
 date: 2024-05-16
 taxonomies:
   tags:
-    - research-project
+    - research
     - computer-vision
     - electronic-systems
     - robotics

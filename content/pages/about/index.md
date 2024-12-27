@@ -7,22 +7,7 @@ path = "about"
 <img src="headshot2023.webp" width=150>
 </p>
 
-​I am a multi-cultural, multi-disciplinary engineer interested in
-
-- Electronics,
-- Robotics and intelligent AI systems, and
-- Low-level (embedded to OS) software engineering
-
-<iframe
-  src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/liu2g/resume/releases/latest/download/eece_resume.pdf"
-  width="100%" height="400"
-  frameBorder="0" scrolling="auto"
->
-</iframe>
-
----
-
-# Education
+​I am an engineer who enjoys solving problems with programming and electronics.
 
 #### Electrical, Electronics and Computer Engineering
 
@@ -30,6 +15,13 @@ path = "about"
   [University of Cincinnati](https://www.uc.edu/), USA
 - Master of Science (August 2023 - December 2024), [Bradley
   University](https://www.bradley.edu/), USA
+
+<iframe
+  src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/liu2g/resume/releases/latest/download/eece_resume.pdf"
+  width="100%" height="400"
+  frameBorder="0" scrolling="auto"
+>
+</iframe>
 
 ---
 

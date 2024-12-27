@@ -50,6 +50,9 @@
         <loc>https://liu2g.github.io/page/5/</loc>
     </url>
     <url>
+        <loc>https://liu2g.github.io/page/6/</loc>
+    </url>
+    <url>
         <loc>https://liu2g.github.io/pasta/</loc>
         <lastmod>2024-05-16</lastmod>
     </url>
@@ -87,7 +90,7 @@
         <loc>https://liu2g.github.io/tags/python/</loc>
     </url>
     <url>
-        <loc>https://liu2g.github.io/tags/research-project/</loc>
+        <loc>https://liu2g.github.io/tags/research/</loc>
     </url>
     <url>
         <loc>https://liu2g.github.io/tags/robotics/</loc>
@@ -95,6 +98,10 @@
     <url>
         <loc>https://liu2g.github.io/teleop-video/</loc>
         <lastmod>2024-05-16</lastmod>
+    </url>
+    <url>
+        <loc>https://liu2g.github.io/thesis/</loc>
+        <lastmod>2024-12-20</lastmod>
     </url>
     <url>
         <loc>https://liu2g.github.io/tutorcal/</loc>

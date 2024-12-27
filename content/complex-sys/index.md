@@ -13,7 +13,7 @@ taxonomies:
 This discussion is mostly about the two projects over the academic completion for the Complex Systems and Networks class.
 Both projects were finished in a group with [Wayne Stegner](https://github.com/stegnerw) and [Siddharth Barve](https://github.com/Siddharth-Barve).
 The detail about the class is explained in my [Spring 2021 Remark](../Discussion/spring-2021.md).
-More info about the projects is available at my [class-files repo](https://github.com/liu2z2/class-files/tree/main/spring2021-complex-sys).
+More info about the projects is available at my [school-files repo](https://github.com/liu2g/school-files/tree/main/spring2021-complex-sys).
 
 ### Emergent Segregating Cellular Model
 
@@ -74,3 +74,5 @@ It would also be interesting, however, to see if the behavior and result is diff
 For our final project for the class, we simulated the social thermodynamic behavior in penguin colonies.
 We studies this activity as a complex system by setting up an universal set of rules for each penguin agent independently, formulating a thermal model for the environment, and eventually placing the agents into the environment playground to interact with zero supervision.
 The motivation and methodology are explained in detail in our [proposal document](https://github.com/stegnerw/penguin_swarm/blob/main/docs/project_proposal/main.pdf).
+
+<div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/WTDb-wTXo4k" allowfullscreen></iframe></div>

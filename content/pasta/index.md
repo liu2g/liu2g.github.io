@@ -3,7 +3,7 @@ title: Pulmonary Acoustic Sensor Telemetry Array
 date: 2024-05-16
 taxonomies:
   tags:
-    - research-project
+    - research
     - computer-vision
     - electronic-systems
     - mathematical-analysis

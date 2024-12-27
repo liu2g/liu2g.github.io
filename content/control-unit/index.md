@@ -11,8 +11,8 @@ This article talks about the technical aspects and takeaway from two
 inter-connecting projects from Intro to Computer Architecture and Organization
 Class. The detail about the class is explained in my [Spring 2021
 Remark](../Discussion/spring-2021.md). More info about the projects is available
-at my [class-files
-repo](https://github.com/liu2z2/class-files/tree/main/spring2021-comp-org).
+at my [school-files
+repo](https://github.com/liu2g/school-files/tree/main/spring2021-comp-org).
 
 ### Non-Pipelined Control Unit
 
@@ -65,7 +65,7 @@ to enable tri-state buffers on data paths.
   <figcaption> <small> Fig. 4: Control unit block component view </small> </figcaption>
 </figure>
 
-Detail on other components is explained in the [project report](https://github.com/liu2z2/class-files/tree/main/fall2021-comp-org/project-3-report.pdf). Related optimizations include:
+Detail on other components is explained in the [project report](https://github.com/liu2g/school-files/tree/main/fall2021-comp-org/project-3-report.pdf). Related optimizations include:
 
 - We use Y and Z as pre- and post- buffer for the ALU operations, respectively,
   by statically writing in common register values.

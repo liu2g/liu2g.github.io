@@ -3,7 +3,7 @@ title: Multi-Robot Object Transportation Simulation
 date: 2024-05-16
 taxonomies:
   tags:
-    - research-project
+    - research
     - computer-vision
     - mathematical-analysis
     - robotics
