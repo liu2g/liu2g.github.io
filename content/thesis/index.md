@@ -64,7 +64,7 @@ You can watch the thesis defense recording [here](https://youtu.be/Jgu7624eklM) 
 </figure>
 
 <figure>
-  <img src="defense-1.webp"/>
+  <img src="defense-2.webp"/>
   <figcaption> <small> Fig. 4(b): Thesis defense </small> </figcaption>
 </figure>
 
