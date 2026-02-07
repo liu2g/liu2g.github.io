@@ -11,9 +11,9 @@ path = "about"
 
 #### Electrical, Electronics and Computer Engineering
 
-- [Bachelor of Science](CeDiploma_BS_EE.pdf) (August 2016 - May 2021),
+- [Bachelor of Science](diploma_bs.pdf.pdf) (August 2016 - May 2021),
   [University of Cincinnati](https://www.uc.edu/), USA
-- Master of Science (August 2023 - December 2024), [Bradley
+- [Master of Science](diploma_ms.pdf) (August 2023 - December 2024), [Bradley
   University](https://www.bradley.edu/), USA
 
 <iframe
@@ -30,8 +30,7 @@ path = "about"
 - OS: Linux (currently Arch and Pop!_OS)
 - Data Automation and Visualization: Python, Bash
 - Software engineering: Git, VSCode, Vim, GCC, Qt, GTK
-- Electronics Design & Simulation: KiCAD, MATLAB & Simulink, PySpice, Xilinx
-  Vivado
+- Electronics Design & Simulation: KiCAD, MATLAB & Simulink, PySpice, Xilinx Vivado
 - Robotics: ROS, Gazebo, CoppeliaSim
 - Documentation: Markdown, LaTeX
 
@@ -53,6 +52,15 @@ path = "about"
     <td align="center"><img src="latex.webp" alt="latex" width = 100px height = 100px></td>
   </tr>
 </table>
+
+---
+
+# Academic Publications
+
+- Z. Liu and M. S. Miah, “Cooperative Object Transportation Using Autonomous Networked Cobots: A Distributed Approach,” in *IEEE Intl. Symp. on Robotic and Sensors Environments*, Jun. 2024, pp. 1–7. doi: [10.1109/ROSE62198.2024.10590934](https://doi.org/10.1109/ROSE62198.2024.10590934).
+- Z. Liu, “Decentralized coordination of networked cobots: a graph-theoretic approach to object transportation,” master, Bradley University, USA, 2024. Available [online](https://www.proquest.com/docview/3154701510).
+- M. S. Miah, Z. Liu, C. Diercks, C. R. Davey, R. D. Jockisch and A. R. Cross, "Pulmonary Acoustic Sensor Telemetry Array: A Prototype for Remote Monitoring, Diagnosis, and Prognostication of Pulmonary Sounds," in *IEEE Access*, vol. 13, pp. 40594-40606, 2025, doi: [10.1109/ACCESS.2025.3546967](https://doi.org/10.1109/ACCESS.2025.3546967).
+- Z. Liu and M. S. Miah, “Decentralized Multi-Cobot Navigation Under Intermittent Communication,” Robotics, vol. 15, no. 1, p. 4, Jan. 2026, doi: [10.3390/robotics15010004](https://doi.org/10.3390/robotics15010004).
 
 ---
 
